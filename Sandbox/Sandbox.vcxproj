@@ -58,7 +58,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <PreprocessorDefinitions>MENG_PLATFORM_WINDOWS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(SolutionDir)MichoEngine\src;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)MichoEngine\src;$(SolutionDir)MichoEngine\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -73,7 +73,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <PreprocessorDefinitions>MENG_PLATFORM_WINDOWS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(SolutionDir)MichoEngine\src;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)MichoEngine\src;$(SolutionDir)MichoEngine\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

@@ -1,0 +1,3 @@
+[submodule "MichoEngine/vendor/spdlog"]
+	path = MichoEngine/vendor/spdlog
+	url = https://github.com/gabime/spdlog

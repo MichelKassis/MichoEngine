@@ -11,12 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\MichoEngine\Log.h" />
     <ClInclude Include="src\MichoEngine.h" />
     <ClInclude Include="src\MichoEngine\Application.h" />
     <ClInclude Include="src\MichoEngine\Core.h" />
     <ClInclude Include="src\MichoEngine\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\MichoEngine\Log.cpp" />
     <ClCompile Include="src\MichoEngine\Application.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -67,6 +69,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <PreprocessorDefinitions>MENG_PLATFORM_WINDOWS;MENG_BUILD_DLL;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)MichoEngine\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -81,6 +84,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <PreprocessorDefinitions>MENG_PLATFORM_WINDOWS;MENG_BUILD_DLL;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)MichoEngine\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
